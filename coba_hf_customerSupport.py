@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate
 import os
 
 # Mengatur LLM
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "AYU_APIkey"
 llm = HuggingFaceEndpoint(repo_id="google/flan-ul2")
 
 def handle_complaint(complaint: str) -> str:
